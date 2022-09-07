@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ef9a9a;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 160px;
+    height: 60px;
+}
+
+a {
+    display: inline-flex; /*igual o block porem o block nao deixa nada ficar do lado dele, ja o flex deixa */
+    align-items: center;
+    font-family: "Fira-Code", monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #7986cb;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block; /* link vem com display:inline; por padrao, e nao deixa colocar altura nem largura */
+    background-color: #7986cb;
+    height: 60px;
+    padding: 0px 20px;
+    line-height: 60px;
+    box-shadow: 4px 4px black;
+    margin-right: 0px;
+}
+
+#button:hover {
+    background-color: #fff;
+    color: #7986cb;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #7986cb;
+}
