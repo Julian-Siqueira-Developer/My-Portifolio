@@ -20,6 +20,7 @@ a {
     color: #fff;
     text-decoration: none;
     margin-right: 30px;
+    transition: 100ms linear;
 }
 
 a::before {
@@ -38,9 +39,11 @@ a::before {
     line-height: 60px;
     box-shadow: 4px 4px black;
     margin-right: 0px;
+    transition: 100ms linear;
 }
 
 #button:hover {
+    transform: scale(1.08);
     background-color: #fff;
     color: #7986cb;
     cursor: pointer;
@@ -48,4 +51,5 @@ a::before {
 
 a:hover {
     color: #7986cb;
+    transform: scale(1.08);
 }
