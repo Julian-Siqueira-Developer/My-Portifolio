@@ -1,7 +1,7 @@
 .banner {
     box-sizing: border-box; /* Default é content-box, ele soma com margin e padding, por isso se usa o border-box para settar o width */
     height: 800px;
-    background-image: url("portifolio/assets/banner.png");
+    background-image: url(".././assets/banner.png");
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid #000;
