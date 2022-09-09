@@ -1,0 +1,24 @@
+.link {
+    display: inline-flex; /*igual o block porem o block nao deixa nada ficar do lado dele, ja o flex deixa */
+    align-items: center;
+    font-family: "Fira-Code", monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 200ms linear;
+}
+
+.link::before {
+    content: "";
+    background-color: #7986cb;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.link:hover {
+    color: #7986cb;
+    transform: scale(1.08);
+}
