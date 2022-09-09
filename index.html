@@ -10,14 +10,12 @@
             href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap"
             rel="stylesheet" />
         <link rel="stylesheet" href="/portifolio/css/reset.css" />
-        <link rel="stylesheet" href="/portifolio/css/style.css" />
         <link rel="stylesheet" href="/portifolio/components/header.css" />
         <link rel="stylesheet" href="/portifolio/components/logo.css" />
         <link rel="stylesheet" href="/portifolio/components/link.css" />
+        <link rel="stylesheet" href="/portifolio/components/banner.css" />
         <link rel="stylesheet" href="/portifolio/components/button.css" />
-        <link
-            rel="stylesheet"
-            href="/portifolio/components/container-title.css" />
+        <link rel="stylesheet" href="/portifolio/components/box.css" />
         <link rel="stylesheet" href="/portifolio/components/subtitle.css" />
         <link rel="stylesheet" href="/portifolio/components/title.css" />
         <title>Portifólio</title>
@@ -33,84 +31,20 @@
                 <a class="link" href="#">Projetos</a>
                 <a class="link" href="#">Sobre</a>
                 <a class="link" href="#">Contatos</a>
-                <a class="button-download link" href="#" lang="en"
-                    >Download CV</a
-                >
+                <a class="button" href="#" lang="en">Download CV</a>
             </nav>
         </header>
-        <main>
-            <article>
-                <section class="section-main">
-                    <img
-                        class="container-img"
-                        src="/portifolio/assets/banner1.jpg"
-                        alt="minhafoto" />
-                    <div class="container-title">
-                        <h1 class="title">Julian Siqueira</h1>
-                        <h2 class="subtitle">FrontEnd Developer</h2>
-                    </div>
-                    <div class="container-button">
-                        <a class="download-cv button-download link" lang="en">
-                            Download CV
-                        </a>
-                        <a class="contatos button-download link"> Contatos </a>
-                    </div>
-                </section>
-                <!--
-                <section class="section-skill">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JAVASCRIPT</li>
-                        <li>TYPESCRIPT</li>
-                        <li>JQUERY</li>
-                        <li>JAVA</li>
-                        <li>MYSQL</li>
-                        <li>APACHE</li>
-                    </ul>
-                </section>
-                <section class="section-projeto">
-                    <div>projetos</div>
-                </section>
-                <section class="section-sobre">
-                    <div>
-                        carrosel
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Blanditiis, labore ex dolore maxime ipsam
-                            possimus minima odit rem aliquid. Placeat animi
-                            optio vero esse itaque impedit commodi expedita
-                            autem nulla!
-                        </p>
-                    </div>
-                </section>
-                <section class="section-contato">
-                    <label for="name">Nome</label>
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="digite seu nome" />
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="digite seu email" />
-                    <label for="mensagem">Mensagem</label>
-                    <textarea
-                        name="mensagem"
-                        id="mensagem"
-                        cols="30"
-                        rows="10"
-                        placeholder="digite sua mensagem">
-                    </textarea>
-                </section> -->
-            </article>
-        </main>
-        <!-- <footer>
-            <p>Todos Direitos reservados &copy; 2022</p>
-        </footer> -->
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box-title">
+                    <h1 class="title">Julian Siqueira</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+                <div class="navigation">
+                    <a class="button" href="#" lang="en"> Download CV </a>
+                    <a class="button contatos" href="#"> Contatos </a>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

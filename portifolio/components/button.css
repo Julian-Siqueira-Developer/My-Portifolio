@@ -1,18 +1,24 @@
-.button-download {
+.button {
     display: inline-block; /* link vem com display:inline; por padrao, e nao deixa colocar altura nem largura */
     background-color: #7986cb;
-    height: 60px;
     padding: 0px 20px;
     line-height: 60px;
     box-shadow: 4px 4px black;
-    margin-right: 0px;
-    transition: 100ms linear;
+    transition: 200ms linear;
     text-decoration: none;
+    text-align: center;
+    font-family: "Fira-Code", monospace;
+    font-size: 20px;
+    color: #fff;
 }
 
-.button-download:hover {
+.button:hover {
     transform: scale(1.08);
     background-color: #fff;
     color: #7986cb;
     cursor: pointer;
+}
+
+.contatos {
+    width: 120.97px;
 }

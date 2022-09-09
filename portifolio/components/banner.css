@@ -1,0 +1,25 @@
+.banner {
+    box-sizing: border-box; /* Default é content-box, ele soma com margin e padding, por isso se usa o border-box para settar o width */
+    height: 800px;
+    background-image: url("/portifolio/assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.wrapper .box-title {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
